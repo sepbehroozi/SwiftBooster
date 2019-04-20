@@ -1,0 +1,6 @@
+use_frameworks!
+target 'SwiftBooster_Tests' do
+  pod 'SwiftBooster', :path => '../'
+  
+  
+end
