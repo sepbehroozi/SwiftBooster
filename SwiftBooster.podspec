@@ -15,7 +15,7 @@ Adds useful functionalities to Swift foundation and CocoaTouch framework.
 Contains useful methods for work with JSON.
                        DESC
 
-  s.homepage         = 'https://github.com/Sepehr  Behroozi/SwiftBooster'
+  s.homepage         = 'https://github.com/3pehrbehroozi/SwiftBooster.git'
   s.license          = { :type => 'Apache License 2.0', :file => 'LICENSE' }
   s.author           = { 'Sepehr  Behroozi' => '3pehrbehroozi@gmail.com' }
   s.source           = { :git => 'https://github.com/3pehrbehroozi/SwiftBooster.git', :tag => s.version.to_s }

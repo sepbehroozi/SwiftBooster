@@ -11,7 +11,7 @@ import Foundation
 public extension Bool {
     
     /// Returns the inverse of this boolean.
-    public var not: Bool {
+    var not: Bool {
         return !self
     }
 }
