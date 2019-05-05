@@ -1,0 +1,22 @@
+{
+  "name": "SwiftBooster",
+  "version": "0.1.0",
+  "summary": "A short description of SwiftBooster.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Sepehr  Behroozi/SwiftBooster",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Sepehr  Behroozi": "3pehrbehroozi@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Sepehr  Behroozi/SwiftBooster.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SwiftBooster/Classes/**/*"
+}

@@ -1,0 +1,16 @@
+PODS:
+  - SwiftBooster (0.1.0)
+
+DEPENDENCIES:
+  - SwiftBooster (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftBooster:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SwiftBooster: 906632ec97cc36b5bf0eab5c6adb911072b3cfcc
+
+PODFILE CHECKSUM: 868f711486288597f3a8df742a18b3f10401b920
+
+COCOAPODS: 1.5.3

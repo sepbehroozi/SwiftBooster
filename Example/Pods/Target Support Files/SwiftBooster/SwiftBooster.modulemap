@@ -1,0 +1,6 @@
+framework module SwiftBooster {
+  umbrella header "SwiftBooster-umbrella.h"
+
+  export *
+  module * { export * }
+}

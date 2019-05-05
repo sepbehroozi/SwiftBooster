@@ -9,27 +9,20 @@
 Pod::Spec.new do |s|
   s.name             = 'SwiftBooster'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SwiftBooster.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
+  s.summary          = 'Adds missing useful functionalities to Swift and CocoaTouch'
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Adds useful functionalities to Swift foundation and CocoaTouch framework.
+Contains useful methods for work with JSON.
                        DESC
 
   s.homepage         = 'https://github.com/Sepehr  Behroozi/SwiftBooster'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.license          = { :type => 'Apache License 2.0', :file => 'LICENSE' }
   s.author           = { 'Sepehr  Behroozi' => '3pehrbehroozi@gmail.com' }
-  s.source           = { :git => 'https://github.com/Sepehr  Behroozi/SwiftBooster.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/3pehrbehroozi/SwiftBooster.git', :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/3pehrbehroozi'
 
   s.ios.deployment_target = '8.0'
-
+  s.swift_version = '5'
   s.source_files = 'SwiftBooster/Classes/**/*'
   
   # s.resource_bundles = {
@@ -37,6 +30,6 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit', 'Foundation'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
