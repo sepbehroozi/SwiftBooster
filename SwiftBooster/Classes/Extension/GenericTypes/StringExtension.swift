@@ -31,8 +31,8 @@ public extension String {
     }
     
     /// Parses the string as an [Double] number and returns the result, or nil if the string could not be parsed as [Double]
-    func toDouble() -> Double {
-        return Double(self)!
+    func toDouble() -> Double? {
+        return Double(self)
     }
     
     /// Parses the string as an [Bool] value and returns the result, or nil if the string was neither true nor false.

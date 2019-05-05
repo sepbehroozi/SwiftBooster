@@ -1,15 +1,6 @@
 # SwiftBooster
 
-[![CI Status](https://img.shields.io/travis/Sepehr  Behroozi/SwiftBooster.svg?style=flat)](https://travis-ci.org/Sepehr  Behroozi/SwiftBooster)
-[![Version](https://img.shields.io/cocoapods/v/SwiftBooster.svg?style=flat)](https://cocoapods.org/pods/SwiftBooster)
-[![License](https://img.shields.io/cocoapods/l/SwiftBooster.svg?style=flat)](https://cocoapods.org/pods/SwiftBooster)
-[![Platform](https://img.shields.io/cocoapods/p/SwiftBooster.svg?style=flat)](https://cocoapods.org/pods/SwiftBooster)
-
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
+Boost your code with **SwiftBooster**. Bring the missing functionality to the iOS framework and Swift language. So far most of Kotlins nice feature are implemented.
 
 ## Installation
 
@@ -19,6 +10,43 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'SwiftBooster'
 ```
+
+## Cheatsheet
+
+#### Collection
+- `isNotEmpty: Bool`
+- `mapIndexed(_:) -> [T]`
+- `forEachIndexed(_:)`
+- `reduceIndexed(_:) -> T`
+- `reduceRight(_:) -> T`
+- `reduceRightIndexed(_:) -> T`
+- `filterNot(_:) -> [T]`
+- `getOrNull(_:) -> T?`
+- `getOrElse(_:) -> T`
+
+#### Bool
+- `not: Bool`
+
+#### Double
+- `toString() -> String`
+- `toInt() -> Int`
+
+#### Int
+- `toString() -> String`
+- `toInt64() -> Int64`
+- `toDouble() -> Double`
+- `separateByCharacter(_:) -> String`
+
+#### String
+- `isNotEmpty: Bool`
+- `isBlank: Bool`
+- `isNotBlank: Bool `
+- `toInt() -> Int?`
+- `toDouble() -> Double?`
+- `toBool() -> Bool?`
+- `toJsonObject() -> JSONObject?`
+- `toJsonArray() -> JSONArray?`
+
 
 ## Author
 
