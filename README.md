@@ -11,42 +11,26 @@ it, simply add the following line to your Podfile:
 pod 'SwiftBooster'
 ```
 
-## Cheatsheet
+## Usage
 
-#### Collection
-- `isNotEmpty: Bool`
-- `mapIndexed(_:) -> [T]`
-- `forEachIndexed(_:)`
-- `reduceIndexed(_:) -> T`
-- `reduceRight(_:) -> T`
-- `reduceRightIndexed(_:) -> T`
-- `filterNot(_:) -> [T]`
-- `getOrNull(_:) -> T?`
-- `getOrElse(_:) -> T`
+Some example:
+```swift
+//Extracting value from JSON
+let thePrice: Int? = getValue(input: myJsonObject, subscripts: "product", "details", "price")
 
-#### Bool
-- `not: Bool`
+//convert string to JSON
+let jsonResponse = rawResponseString.toJsonObject()
 
-#### Double
-- `toString() -> String`
-- `toInt() -> Int`
+//register multiple cells for tableView
+self.tableView.register(
+    (HeaderTableViewCell.nib, HeaderTableViewCell.nibName),
+    (BodyTableViewCell.nib, BodyTableViewCell.nibName),
+    (FooterTableViewCell.nib, FooterTableViewCell.nibName),
+    (ErrorTableViewCell.nib, ErrorTableViewCell.nibName)
+)
+```
 
-#### Int
-- `toString() -> String`
-- `toInt64() -> Int64`
-- `toDouble() -> Double`
-- `separateByCharacter(_:) -> String`
-
-#### String
-- `isNotEmpty: Bool`
-- `isBlank: Bool`
-- `isNotBlank: Bool `
-- `toInt() -> Int?`
-- `toDouble() -> Double?`
-- `toBool() -> Bool?`
-- `toJsonObject() -> JSONObject?`
-- `toJsonArray() -> JSONArray?`
-
+See [Wiki](https://github.com/3pehrbehroozi/SwiftBooster/wiki) for full usage description.
 
 ## Author
 
