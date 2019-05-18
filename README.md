@@ -38,4 +38,4 @@ Sepehr  Behroozi, 3pehrbehroozi@gmail.com
 
 ## License
 
-SwiftBooster is available under the MIT license. See the LICENSE file for more info.
+SwiftBooster is available under the Apache License v2.0 license. See the LICENSE file for more info.
