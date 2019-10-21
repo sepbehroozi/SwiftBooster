@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-/// Returns a CGFloat value representing one pixel of the main screen
+/// Returns a `CGFloat` value representing one pixel of the main screen
 public let onePx = 1 / UIScreen.main.scale
 
 /// Executes the given function `action` specified number of `times`. A zero-based index of current iteration is passed as a parameter to `action`.

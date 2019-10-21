@@ -19,7 +19,7 @@ public extension UIView {
         return UINib.init(nibName: nibName, bundle: nil)
     }
     
-    /// Adds shadow to the current `layer` with given shadow radius `withRadius` and specified shadow offset `offset`.
+    /// Adds a black shadow to the current `layer` with given shadow radius `withRadius` and specified shadow offset `offset`.
     func dropShadow(withRadius: CGFloat = 3, offset: CGSize = CGSize(width: 1, height: 1)) {
         self.layer.shadowColor = UIColor.black.cgColor
         self.layer.shadowOpacity = 0.3

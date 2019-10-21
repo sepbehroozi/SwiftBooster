@@ -22,7 +22,7 @@ Contains useful methods for work with JSON.
   s.social_media_url = 'https://twitter.com/3pehrbehroozi'
 
   s.ios.deployment_target = '8.0'
-  s.swift_version = '5'
+  s.swift_version = "5.0"
   s.source_files = 'SwiftBooster/Classes/**/*'
   
   # s.resource_bundles = {

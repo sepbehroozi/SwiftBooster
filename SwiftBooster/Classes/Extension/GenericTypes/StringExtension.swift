@@ -25,17 +25,17 @@ public extension String {
         return self.isBlank.not
     }
     
-    /// Parses the string as an [Int] number and returns the result, or nil if the string could not be parsed as [Int]
+    /// Parses the string as an `Int` number and returns the result, or nil if the string could not be parsed as `Int`
     func toInt() -> Int? {
         return Int(self)
     }
     
-    /// Parses the string as an [Double] number and returns the result, or nil if the string could not be parsed as [Double]
+    /// Parses the string as an `Double` number and returns the result, or nil if the string could not be parsed as `Double`
     func toDouble() -> Double? {
         return Double(self)
     }
     
-    /// Parses the string as an [Bool] value and returns the result, or nil if the string was neither true nor false.
+    /// Parses the string as an `Bool` value and returns the result, or nil if the string was neither true nor false.
     func toBool() -> Bool? {
         switch self.lowercased() {
         case "true":
@@ -47,7 +47,7 @@ public extension String {
         }
     }
 
-    /// Tries to make a JSONObject (aka [String: Any]) from this string and returns the value
+    /// Tries to make a `JSONObject` (aka `String: Any`) from this string and returns the value
     func toJsonObject() -> JSONObject? {
         guard let data = self.data(using: .utf8) else {
             return nil
@@ -59,7 +59,7 @@ public extension String {
         }
     }
     
-    /// Tries to make a JSONArray (aka Array<JSONObject>) from this string and returns the value
+    /// Tries to make a `JSONArray` (aka `Array<JSONObject>`) from this string and returns the value
     func toJsonArray() -> JSONArray? {
         guard let data = self.data(using: .utf8) else {
             return nil
